@@ -1,0 +1,20 @@
+name: Vanta
+options:
+  bundleIdPrefix: com.vanta
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Vanta:
+    type: application
+    platform: iOS
+    sources: [Vanta]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.vanta.app
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        INFOPLIST_KEY_CFBundleDisplayName: VANTA
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
